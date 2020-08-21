@@ -1,0 +1,28 @@
+<!--
+=============================================================
+ Title:  not-found.component.html
+ Author: Professor Krasso
+ Date:   20 August 2020
+ Modified By: Janet Blohn
+ Description: Exercise 7.3 - Form Validation
+ Note: Image created using PowerPoint
+ HTML for the not-found.component of gpa-calculator-app
+=============================================================
+-->
+
+<!-- Create a Not Found View -->
+<div fxLayout="column">
+  <mat-card fxFlex class="mat-elevation-z0">
+    <mat-card-title>
+      <button mat-button routerLink="/">
+        <img src="./assets/dead-end.png" />
+      </button>
+    </mat-card-title>
+
+    <!-- Notify the user of the error code and how to get back to the home page -->
+    <mat-card-content>
+      <h4>Error code: 404 (Page not found)</h4>
+      <h1>Whoops! Looks like you took a wrong turn! Just click the sign, and you'll be back home.</h1>
+    </mat-card-content>
+  </mat-card>
+</div>
